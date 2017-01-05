@@ -1,0 +1,14 @@
+﻿{
+  "version": "1.0.0-*",
+  "buildOptions": {
+    "allowUnsafe": true
+  },
+  "dependencies": {
+    "System.IO.Compression.clrcompression-x86": "4.0.0",
+    "System.IO.Compression.clrcompression-x64": "4.0.0"
+  },
+  "frameworks": {
+    "net452": {
+    }
+  }
+}
