@@ -1,7 +1,18 @@
 ﻿{
   "version": "1.0.0-*",
   "buildOptions": {
-    "allowUnsafe": true
+    "allowUnsafe": true,
+    "optimize": true
+  },
+  "authors": [
+    "Chelaris"
+  ],
+  "description": "DeflateStream class with the latest changes from the corefx repositoy:\r\n - Native zlib library\r\n - Fixed Async API\r\n - Flush operation",
+  "packOptions": {
+    "summary": "Provides classes and operations to work with Deflate streams",
+    "licenseUrl": "https://github.com/Chelaris182/asyncdeflate/blob/master/LICENSE",
+    "projectUrl": "https://github.com/Chelaris182/asyncdeflate",
+    "owners": [ "Chelaris" ]
   },
   "dependencies": {
     "System.IO.Compression.clrcompression-x86": "4.0.0",
