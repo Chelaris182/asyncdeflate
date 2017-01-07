@@ -1,0 +1,18 @@
+﻿{
+  "version": "1.0.0-*",
+  "buildOptions": {
+    "emitEntryPoint": true
+  },
+
+  "dependencies": {
+    "BenchmarkDotNet": "0.10.1",
+    "AsyncDeflate": {
+      "target": "project"
+    }
+  },
+
+  "frameworks": {
+    "net45": {
+    }
+  }
+}
