@@ -24,6 +24,8 @@ using (var deflateStream = new AsyncDeflate.DeflateStream(outputStream, Compress
 }
 ```
 ## Benchmark summary
+[Benchmark sources](blob/master/Test/Benchmark/Compression.cs)
+
 ```
 BenchmarkDotNet=v0.10.1, OS=Microsoft Windows NT 6.2.9200.0
 Processor=Intel(R) Core(TM) i7-6700HQ CPU 2.60GHz, ProcessorCount=8
